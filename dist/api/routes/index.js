@@ -46,4 +46,3 @@ router.get('/', (req, res) => {
     });
 });
 exports.default = router;
-//# sourceMappingURL=index.js.map

@@ -89,4 +89,3 @@ TokenController.verifyToken = (0, error_middleware_1.asyncHandler)(async (req, r
         },
     });
 });
-//# sourceMappingURL=token.controller.js.map

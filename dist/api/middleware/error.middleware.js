@@ -96,4 +96,3 @@ const asyncHandler = (fn) => {
     };
 };
 exports.asyncHandler = asyncHandler;
-//# sourceMappingURL=error.middleware.js.map

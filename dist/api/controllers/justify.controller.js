@@ -8,6 +8,8 @@ var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.JustifyController = void 0;
 const JustificationService_1 = require("../../services/JustificationService");
+const TokenService_1 = require("../../services/TokenService"); // IMPORT AJOUTÉ
+const RateLimitService_1 = require("../../services/RateLimitService"); // IMPORT AJOUTÉ
 const logger_1 = require("../../utils/logger");
 const error_middleware_1 = require("../middleware/error.middleware");
 class JustifyController {
@@ -50,8 +52,8 @@ JustifyController.justifyText = (0, error_middleware_1.asyncHandler)(async (req,
  * Health check endpoint (optional)
  */
 JustifyController.healthCheck = (0, error_middleware_1.asyncHandler)(async (req, res) => {
-    const tokenStats = tokenService.getStats();
-    const rateLimitStats = rateLimitService.getStats();
+    const tokenStats = TokenService_1.tokenService.getStats();
+    const rateLimitStats = RateLimitService_1.rateLimitService.getStats();
     res.json({
         status: 'healthy',
         timestamp: new Date().toISOString(),
@@ -63,4 +65,3 @@ JustifyController.healthCheck = (0, error_middleware_1.asyncHandler)(async (req,
         },
     });
 });
-//# sourceMappingURL=justify.controller.js.map

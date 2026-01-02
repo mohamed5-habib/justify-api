@@ -23,4 +23,3 @@ router.post('/token', token_controller_1.TokenController.generateToken);
  */
 router.get('/token/verify', token_controller_1.TokenController.verifyToken);
 exports.default = router;
-//# sourceMappingURL=token.routes.js.map

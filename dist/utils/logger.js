@@ -57,4 +57,3 @@ const requestLogger = (req, res, next) => {
     next();
 };
 exports.requestLogger = requestLogger;
-//# sourceMappingURL=logger.js.map

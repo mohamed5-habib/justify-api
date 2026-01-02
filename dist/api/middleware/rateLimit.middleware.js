@@ -109,4 +109,3 @@ const incrementWordCount = (req, res, next) => {
     }
 };
 exports.incrementWordCount = incrementWordCount;
-//# sourceMappingURL=rateLimit.middleware.js.map

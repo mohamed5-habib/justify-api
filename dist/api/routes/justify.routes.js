@@ -27,4 +27,3 @@ router.post('/justify', auth_middleware_1.authenticateToken, rateLimit_middlewar
  */
 router.get('/health', justify_controller_1.JustifyController.healthCheck);
 exports.default = router;
-//# sourceMappingURL=justify.routes.js.map

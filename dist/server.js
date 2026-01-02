@@ -48,4 +48,3 @@ process.on('uncaughtException', (error) => {
 process.on('unhandledRejection', (reason, promise) => {
     logger_1.logger.error('💥 Unhandled Rejection at:', promise, 'reason:', reason);
 });
-//# sourceMappingURL=server.js.map

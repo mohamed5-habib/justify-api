@@ -177,4 +177,3 @@ exports.JustificationService = JustificationService;
 JustificationService.MAX_LINE_LENGTH = constants_1.CONFIG.JUSTIFICATION.MAX_LINE_LENGTH;
 JustificationService.SPACE = ' ';
 JustificationService.NEWLINE = '\n';
-//# sourceMappingURL=JustificationService.js.map

@@ -113,4 +113,3 @@ app.get('*', (req, res) => {
 });
 // Error handling
 app.use(error_middleware_1.errorHandler);
-//# sourceMappingURL=app.js.map

@@ -134,4 +134,3 @@ class TokenService {
 exports.TokenService = TokenService;
 // Export singleton instance
 exports.tokenService = new TokenService();
-//# sourceMappingURL=TokenService.js.map
