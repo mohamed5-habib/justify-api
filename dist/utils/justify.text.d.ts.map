@@ -1,0 +1,1 @@
+{"version":3,"file":"justify.text.d.ts","sourceRoot":"","sources":["../../src/utils/justify.text.ts"],"names":[],"mappings":"AAAA,qBAAa,aAAa;IAExB,OAAO,CAAC,MAAM,CAAC,QAAQ,CAAC,WAAW,CAAM;IAEzC;;OAEG;IACH,MAAM,CAAC,UAAU,CAAC,IAAI,EAAE,MAAM,GAAG,MAAM;IAUvC;;OAEG;IACH,MAAM,CAAC,OAAO,CAAC,IAAI,EAAE,MAAM,GAAG,MAAM;IA0DpC;;OAEG;IACH,OAAO,CAAC,MAAM,CAAC,WAAW;CAiC3B"}
